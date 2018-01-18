@@ -1,4 +1,5 @@
 `timescale 10ns / 1ns
+
 interface bfm();
 
 parameter CLOCK_PERIOD = 10;

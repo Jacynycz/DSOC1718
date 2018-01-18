@@ -3,64 +3,222 @@ K3
 13
 cModel Technology
 Z0 dC:\hlocal\DSOC1718\Practica3
+T_opt
+Z1 VA^a]l^9Mgk_nXNB4a@>fm3
+Z2 04 3 4 work top fast 0
+Z3 =1-a0369f976fc8-5a60f5a9-1e4-10bc
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OL;O;10.1d;51
+Z7 dC:\hlocal\DSOC1718\Practica3
 Ybfm
-Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
-Z2 IOGiOO2LDGlA3mNmlX0kRH2
-Z3 V;CIbMRSRADND8PFPJ^`8M0
+Z8 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+!i10b 1
+Z9 !s100 ha854Dc:1WWVfM;e4GZjG0
+Z10 I:3zHJ7Fj]zJZ<LcD]gjUH1
+Z11 V;CIbMRSRADND8PFPJ^`8M0
+Z12 !s105 bfm_sv_unit
 S1
-Z4 dC:\hlocal\DSOC1718\Practica3
-Z5 w1516126550
-Z6 8./bfm.sv
-Z7 F./bfm.sv
-L0 2
-Z8 OL;L;10.1d;51
+R7
+Z13 w1516303714
+Z14 8./bfm.sv
+Z15 F./bfm.sv
+L0 3
+Z16 OL;L;10.1d;51
 r1
-31
-Z9 !s108 1516132158.065000
-Z10 !s107 and_seq_item.sv|mul_seq_item.sv|xor_seq_item.sv|add_seq_item.sv|C:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_deprecated_defines.svh|C:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_reg_defines.svh|C:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_callback_defines.svh|C:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_sequence_defines.svh|C:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/tlm1/uvm_tlm_imps.svh|C:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_tlm_defines.svh|C:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_printer_defines.svh|C:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_object_defines.svh|C:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_phase_defines.svh|C:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_message_defines.svh|C:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_version_defines.svh|C:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/uvm_macros.svh|general_seq_item.sv|./bfm.sv|./imports.sv|
-Z11 !s90 -reportprogress|300|-f|filelist.f|
-Z12 o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
-Z13 !s92 +incdir+ -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
-Z14 !s100 =Q@k]_V_9dezg8KhD0ldG3
-Z15 !s105 bfm_sv_unit
-!i10b 1
 !s85 0
-Ximports
-R1
-Z16 DXx6 mtiUvm 7 uvm_pkg 0 22 `>KRBZTQ0m_DO96aG71kW3
-!i10b 1
-!s100 21Q?nUF;n_WWPbBZbejHB0
-Ii4@cO6ELYohnRhPo7^6g40
-Vi4@cO6ELYohnRhPo7^6g40
-S1
-R4
-Z17 w1516131875
-8C:/hlocal/DSOC1718/Practica3/imports.sv
-FC:/hlocal/DSOC1718/Practica3/imports.sv
-Z18 Fgeneral_seq_item.sv
-Z19 FC:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/uvm_macros.svh
-Z20 FC:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_version_defines.svh
-Z21 FC:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_message_defines.svh
-Z22 FC:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_phase_defines.svh
-Z23 FC:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_object_defines.svh
-Z24 FC:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_printer_defines.svh
-Z25 FC:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_tlm_defines.svh
-Z26 FC:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/tlm1/uvm_tlm_imps.svh
-Z27 FC:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_sequence_defines.svh
-Z28 FC:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_callback_defines.svh
-Z29 FC:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_reg_defines.svh
-Z30 FC:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_deprecated_defines.svh
-Z31 Fadd_seq_item.sv
-R19
-Z32 Fxor_seq_item.sv
-Z33 Fmul_seq_item.sv
-Z34 Fand_seq_item.sv
-L0 2
+31
+Z17 !s108 1516304984.736000
+Z18 !s107 tests/test1.sv|env/general_env.sv|scoreboard/general_scoreboard.sv|agent/general_agent.sv|monitor/general_monitor.sv|driver/general_driver.sv|sequencer/general_sequencer.sv|sequencer/general_sequence.sv|sequencer/items/and_seq_item.sv|sequencer/items/mul_seq_item.sv|sequencer/items/xor_seq_item.sv|sequencer/items/add_seq_item.sv|sequencer/items/general_seq_item.sv|C:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_deprecated_defines.svh|C:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_reg_defines.svh|C:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_callback_defines.svh|C:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_sequence_defines.svh|C:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/tlm1/uvm_tlm_imps.svh|C:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_tlm_defines.svh|C:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_printer_defines.svh|C:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_object_defines.svh|C:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_phase_defines.svh|C:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_message_defines.svh|C:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_version_defines.svh|C:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/uvm_macros.svh|./imports.sv|./bfm.sv|./top.sv|./tinyalu.sv|
+Z19 !s90 -reportprogress|300|-f|filelist.f|
+Z20 o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Xbfm_sv_unit
 R8
+Z21 DXx6 mtiUvm 7 uvm_pkg 0 22 `>KRBZTQ0m_DO96aG71kW3
+Z22 DXx4 work 7 imports 0 22 Wzz@fBW`FCnlR_fUaXh8P1
+Z23 VAfjbPe1F[><AfWKdb=inH3
+r1
+31
+Z24 IAfjbPe1F[><AfWKdb=inH3
+S1
+R7
+Z25 w1516300455
+R14
+R15
+L0 2
+R16
+Z26 !s107 tests/test1.sv|env/general_env.sv|scoreboard/general_scoreboard.sv|agent/general_agent.sv|monitor/general_monitor.sv|driver/general_driver.sv|sequencer/general_sequencer.sv|sequencer/general_sequence.sv|sequencer/items/and_seq_item.sv|sequencer/items/mul_seq_item.sv|sequencer/items/xor_seq_item.sv|sequencer/items/add_seq_item.sv|sequencer/items/general_seq_item.sv|C:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_deprecated_defines.svh|C:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_reg_defines.svh|C:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_callback_defines.svh|C:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_sequence_defines.svh|C:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/tlm1/uvm_tlm_imps.svh|C:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_tlm_defines.svh|C:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_printer_defines.svh|C:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_object_defines.svh|C:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_phase_defines.svh|C:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_message_defines.svh|C:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_version_defines.svh|C:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/uvm_macros.svh|./imports.sv|./bfm.sv|./top.sv|./tinyalu.sv|
+R19
+R20
+Z27 !s100 o00Maa=NOSFOTK2]G0A;[0
+Z28 !s108 1516303607.983000
+!s85 0
+!i10b 1
+!i103 1
+Ximports
+R8
+R21
+!i10b 1
+!s100 2i8=12R>fETPB@XbX:IQh2
+IKZMObE18j_[<cGi95>HOk2
+VKZMObE18j_[<cGi95>HOk2
+S1
+R7
+w1516304983
+Z29 8./imports.sv
+Z30 F./imports.sv
+Z31 Fsequencer/items/general_seq_item.sv
+Z32 FC:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/uvm_macros.svh
+Z33 FC:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_version_defines.svh
+Z34 FC:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_message_defines.svh
+Z35 FC:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_phase_defines.svh
+Z36 FC:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_object_defines.svh
+Z37 FC:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_printer_defines.svh
+Z38 FC:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_tlm_defines.svh
+Z39 FC:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/tlm1/uvm_tlm_imps.svh
+Z40 FC:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_sequence_defines.svh
+Z41 FC:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_callback_defines.svh
+Z42 FC:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_reg_defines.svh
+Z43 FC:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_deprecated_defines.svh
+Z44 Fsequencer/items/add_seq_item.sv
+R32
+Z45 Fsequencer/items/xor_seq_item.sv
+Z46 Fsequencer/items/mul_seq_item.sv
+Z47 Fsequencer/items/and_seq_item.sv
+Z48 Fsequencer/general_sequence.sv
+Z49 Fsequencer/general_sequencer.sv
+Z50 Fdriver/general_driver.sv
+Z51 Fmonitor/general_monitor.sv
+Z52 Fagent/general_agent.sv
+Z53 Fscoreboard/general_scoreboard.sv
+Z54 Fenv/general_env.sv
+Z55 Ftests/test1.sv
+L0 2
+R16
 r1
 !s85 0
 31
-!s108 1516132203.013000
-!s107 and_seq_item.sv|mul_seq_item.sv|xor_seq_item.sv|add_seq_item.sv|C:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_deprecated_defines.svh|C:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_reg_defines.svh|C:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_callback_defines.svh|C:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_sequence_defines.svh|C:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/tlm1/uvm_tlm_imps.svh|C:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_tlm_defines.svh|C:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_printer_defines.svh|C:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_object_defines.svh|C:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_phase_defines.svh|C:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_message_defines.svh|C:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/macros/uvm_version_defines.svh|C:/software/electronica/questa_sim64_10.1d/uvm-1.1c/../verilog_src/uvm-1.1c/src/uvm_macros.svh|general_seq_item.sv|C:/hlocal/DSOC1718/Practica3/imports.sv|
-!s90 -reportprogress|300|-L|mtiAvm|-L|mtiOvm|-L|mtiUvm|-L|mtiUPF|C:/hlocal/DSOC1718/Practica3/imports.sv|
-R12
+R17
+R18
+R19
+R20
+vsingle_cycle
+R8
+!i10b 1
+Z56 !s100 KKdnK2nT:VG]`Eh`mX3[G3
+Z57 IcD4abBCfg^Jb:l@]hTzhU2
+Z58 V58J=>7^ZPB7^a47PLGX761
+Z59 !s105 tinyalu_sv_unit
+S1
+R7
+Z60 w1516298934
+Z61 8./tinyalu.sv
+Z62 F./tinyalu.sv
+L0 30
+R16
+r1
+!s85 0
+31
+R17
+R18
+R19
+R20
+vthree_cycle
+R8
+!i10b 1
+Z63 !s100 :Z5CDPk?KjeHi9njd9g<Y3
+Z64 IVSm7k7Oa94Q9ERZ4mHHJC0
+Z65 VBEoif13Z4AU?A^89WE38_1
+R59
+S1
+R7
+R60
+R61
+R62
+L0 58
+R16
+r1
+!s85 0
+31
+R17
+R18
+R19
+R20
+vtinyalu
+R8
+!i10b 1
+Z66 !s100 1?NBF]cMnkRik;CajUNPc2
+Z67 I77]eZC`[M1N7ciPVajXJn2
+Z68 VAQhkC39;aY9oDR62YiF@G1
+R59
+S1
+R7
+R60
+R61
+R62
+L0 1
+R16
+r1
+!s85 0
+31
+R17
+R18
+R19
+R20
+vtop
+R8
+R21
+Z69 DXx4 work 11 top_sv_unit 0 22 I?aUiAGhHZEJ]50z1>ZW50
+Z70 Ve:gFW1CKLAXc^T:7k2HoD1
+r1
+!s85 0
+31
+!i10b 1
+Z71 !s100 Q4?AkIkLcLAcLV`lY9[ob3
+Z72 IdN5DfZfb352Yi=e6R@^[@1
+Z73 !s105 top_sv_unit
+S1
+R7
+Z74 w1516303780
+Z75 8./top.sv
+Z76 F./top.sv
+L0 4
+R16
+R17
+R18
+R19
+R20
+Xtop_sv_unit
+R8
+R21
+Z77 VI?aUiAGhHZEJ]50z1>ZW50
+r1
+!s85 0
+31
+!i10b 1
+Z78 !s100 >f5Oz<Ic??7lV7;_Q?ez[3
+Z79 II?aUiAGhHZEJ]50z1>ZW50
+!i103 1
+S1
+R7
+R74
+R75
+R76
+R32
+R33
+R34
+R35
+R36
+R37
+R38
+R39
+R40
+R41
+R42
+R43
+L0 2
+R16
+R17
+R18
+R19
+R20

@@ -1,34 +1,26 @@
-`include "tester.sv"
-`include "coverage.sv"
-`include "scoreboard.sv"
-class top extends uvm_env;
+`include "uvm_macros.svh"	
+import uvm_pkg::*;
 
-bfm bfm_i();
-tinyalu tinyalu_int(.A(bfm_i.A),
-					.B(bfm_i.B),
-					.op(bfm_i.op),
-					.clk(bfm_i.clk),
-					.reset_n(bfm_i.reset_n),
-					.start(bfm_i.start),
-					.done(bfm_i.done),
-					.result(bfm_i.result));
+module top ();
 
-tester tester_i;
-coverage coverage_i;
-scoreboard scoreboard_i;
+bfm i_bfm();
+tinyalu tinyalu_int(.A(i_bfm.A),
+					.B(i_bfm.B),
+					.op(i_bfm.op),
+					.clk(i_bfm.clk),
+					.reset_n(i_bfm.reset_n),
+					.start(i_bfm.start),
+					.done(i_bfm.done),
+					.result(i_bfm.result));
 
 
 // driver.seq_item_port.connect(sequencer.seq_item_export);
+
 initial begin
-	 tester_i = new(bfm_i);
-	 coverage_i = new(bfm_i);
-	 scoreboard_i = new(bfm_i);
-	 fork;
-		 coverage_i.do_cover();
-		 scoreboard_i.analize();
-		 tester_i.test();
-	join_none
+	uvm_config_db #(virtual bfm)::set(null,"*","bfm",i_bfm);	
+	run_test();
 end
+
 endmodule
 
 //vlog tinyalu.sv;vlog bfm.sv;vlog transaction.sv;vlog driver.sv;vlog top.sv;restart -f;run 10us

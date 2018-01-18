@@ -1,0 +1,1 @@
+vsim +UVM_TESNAME=test1 work.top
