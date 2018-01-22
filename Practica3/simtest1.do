@@ -1,1 +1,1 @@
-vsim +UVM_TESNAME=test1 work.top
+vsim +UVM_TESNAME=tests/test1 work.top

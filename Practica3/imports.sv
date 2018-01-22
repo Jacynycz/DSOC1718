@@ -9,8 +9,14 @@ package imports;
 	`include "sequencer/items/mul_seq_item.sv"
 	`include "sequencer/items/and_seq_item.sv"
 	
-	// Sequence and sequencer
-	`include "sequencer/general_sequence.sv"
+	// Sequences
+	`include "sequencer/sequences/general_sequence.sv"
+	`include "sequencer/sequences/add_sequence.sv"
+	`include "sequencer/sequences/xor_sequence.sv"
+	`include "sequencer/sequences/mul_sequence.sv"
+	`include "sequencer/sequences/and_sequence.sv"
+
+	// Sequencer
 	`include "sequencer/general_sequencer.sv"
 
 	// Driver
@@ -30,6 +36,8 @@ package imports;
 
 	// Tests
 	`include "tests/test1.sv"
-
+	`include "tests/test2.sv"
+	`include "tests/test3.sv"
+	`include "tests/test4.sv"
 
 endpackage
