@@ -17,6 +17,8 @@
 `timescale 1ns / 1ps
 `define P 20
 
+import defs::packet_input;
+
 module test_keccak;
 
     // Inputs
@@ -80,16 +82,17 @@ module test_keccak;
         // SHA3-512("The quick brown fox jumps over the lazy dog.")
         reset = 1; #(`P); reset = 0;
         in_ready = 1; is_last = 0;
-        in = "The quic"; #(`P);
-        in = "k brown "; #(`P);
-        in = "fox jump"; #(`P);
-        in = "s over t"; #(`P);
-        in = "he lazy "; #(`P);
-        in = "dog.    "; byte_num = 4; is_last = 1; #(`P); /* !!! not in = "dog." */
+        in = "Viktor t"; #(`P);
+        in = "estea el"; #(`P);
+        in = " chip de"; #(`P);
+        in = " keccak "; #(`P);
+        in = "para ver"; #(`P);
+        in = " si func"; #(`P);
+        in = "iona.   "; byte_num = 5; is_last = 1; #(`P); /* !!! not in = "dog." */
         in_ready = 0; is_last = 0;
         while (out_ready !== 1)
             #(`P);
-        check(512'hab7192d2b11f51c7dd744e7b3441febf397ca07bf812cceae122ca4ded6387889064f8db9230f173f6d1ab6e24b6e50f065b039f799f5592360a6558eb52d760);
+        check(512'h0f91070a28833b5b299ad55b071cecd1804bcc30ffd2f7632feb67ddccbb5925df53328ef15a5a37864c8cd4efbf752f93efe674a9a8628667239cd3220c427c);
 
         // hash an string "\xA1\xA2\xA3\xA4\xA5", len == 5
         reset = 1; #(`P); reset = 0;
