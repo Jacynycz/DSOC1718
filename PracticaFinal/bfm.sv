@@ -29,13 +29,13 @@ parameter CLOCK_PERIOD = 10;
 task automatic send(string str);
 	send_reset();
 	in_ready = 1;
-	$display("Enviando cadena de texto: %s\n Longitud: %d",str,str.len());
+	$display("-------------------------------");
+	$display("Enviando cadena de texto:\n%s",str);
 	while(str.len() > 8)
 	begin
 			//si el buffer del chip está lleno esperamos
 		while(buffer_full == 1)
 			@(posedge clk);
-		
 			//obtenemos el siguiente byte a enviar
 		next = str.substr(0,7);
 			//lo restamos del string
@@ -43,25 +43,42 @@ task automatic send(string str);
 			//lo convermitmos a byte
 		next_byte = str_to_byte(next);
 
-		$display("Enviando '%s' convertido a '%h'",next,next_byte);
+		//$display("Enviando '%s' convertido a '%h'",next,next_byte);
 		send_byte(next_byte,0,0);
 		str = rem;
 	end
 
-	while(buffer_full == 1)
-		@(posedge clk);
-
 	size = str.len();
 
-	while(str.len()<8)
-		str={str," "};	
+	if(size < 8)
+	begin
+		while(buffer_full == 1)
+			@(posedge clk);
 
-	next_byte = str_to_byte(str);
-	send_byte(next_byte,size,1);
+		while(str.len()<8)
+			str={str," "};	
+
+		next_byte = str_to_byte(str);
+		//$display("Enviando último byte '%s' de tamaño '%d' convertido a '%h'",str,size,next_byte);
+		send_byte(next_byte,size,1);
+	end
+	else
+	begin
+		while(buffer_full == 1)
+			@(posedge clk);
+
+		next_byte = str_to_byte(str);
+		//$display("Enviando último byte '%s' de tamaño '%d' convertido a '%h'",str,size,next_byte);
+		send_byte(next_byte,size,0);
+		send_byte(64'd0,0,1);
+	end
 	in_ready = 0;
 	
 	@(posedge out_ready);
-	$display("Listo");
+	$display("-------------------------------");
+	$display("Recibido:\n%h",out);
+	$display("-------------------------------");
+	$display("*******************************");
 endtask
 
 

@@ -30,19 +30,28 @@ module test;
         .out_ready(i_bfm.out_ready)
     );
 
-    randomizer#(3) sshort;
-    randomizer#(40) slarge;
+    randomizer#(5) sshort;
+    randomizer#(40) smedium;
+    randomizer#(120) slarge;
+    randomizer#(2000) shuge;
 
     initial begin
         sshort = new;
-        sshort.randomize();
+        smedium = new;
         slarge = new;
-        slarge.randomize();
-        i_bfm.send("Viktor mola mucho porque lanza cosas al dut");
-        i_bfm.send("Viktor mola mucho porque lanza cosas al dut y luego intenta desbordar el buffer de entrada para ver cuanto aguanta el sistema");
-        i_bfm.send("Vik");
-        i_bfm.send(sshort.get_str());
-        i_bfm.send(slarge.get_str());
+        shuge = new;
+        repeat(2)
+        begin
+            sshort.randomize();
+            smedium.randomize();
+            slarge.randomize();
+            shuge.randomize();
+            i_bfm.send(sshort.get_str());
+            i_bfm.send(smedium.get_str());
+            i_bfm.send(slarge.get_str());
+            i_bfm.send(shuge.get_str());
+        end
+        i_bfm.send("1");
     end
 
 endmodule
