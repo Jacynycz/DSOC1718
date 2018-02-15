@@ -1,26 +1,26 @@
 `include "uvm_macros.svh"	
 import uvm_pkg::*;
+import core::*;
 
 module top ();
 
-bfm i_bfm();
+bfm bfm();
 keccak dut (
-        .clk(i_bfm.clk),
-        .reset(i_bfm.reset),
-        .in(i_bfm.in),
-        .in_ready(i_bfm.in_ready),
-        .is_last(i_bfm.is_last),
-        .byte_num(i_bfm.byte_num),
-        .buffer_full(i_bfm.buffer_full),
-        .out(i_bfm.out),
-        .out_ready(i_bfm.out_ready)
+        .clk(bfm.clk),
+        .reset(bfm.reset),
+        .in(bfm.in),
+        .in_ready(bfm.in_ready),
+        .is_last(bfm.is_last),
+        .byte_num(bfm.byte_num),
+        .buffer_full(bfm.buffer_full),
+        .out(bfm.out),
+        .out_ready(bfm.out_ready)
     );
-
 
 // driver.seq_item_port.connect(sequencer.seq_item_export);
 
 initial begin
-	uvm_config_db #(virtual bfm)::set(null,"*","bfm",i_bfm);	
+	uvm_config_db#(virtual bfm)::set(uvm_root::get(),"*","bfm",bfm);	
 	run_test();
 end
 

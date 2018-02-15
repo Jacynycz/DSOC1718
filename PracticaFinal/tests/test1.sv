@@ -1,6 +1,8 @@
+`include "uvm_macros.svh";
+import uvm_pkg::*;
 import core::*;
 
-class test1 extends uvm_test;
+class test1 extends uvm_test; 
  
   `uvm_component_utils(test1)
  

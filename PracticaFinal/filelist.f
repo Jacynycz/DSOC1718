@@ -7,6 +7,8 @@
 ./sequencer/items/srandomizer/randomizer.sv
 ./imports/defs.sv
 ./bfm.sv
-./test.sv
+./manual_test.sv
 ./imports/core.sv
+./tests/test1.sv
 ./top.sv
+./seq_item_tb.sv

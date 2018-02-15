@@ -3,7 +3,7 @@ import core::*;
 class general_monitor extends uvm_monitor;
  
   // Virtual Interface
-  virtual bfm bfm_i;
+  virtual bfm bfm;
  
   uvm_analysis_port #(general_seq_item) item_collected_port;
  
@@ -21,8 +21,8 @@ class general_monitor extends uvm_monitor;
  
   function void build_phase(uvm_phase phase);
     super.build_phase(phase);
-    if(!uvm_config_db#(virtual bfm)::get(this, "", "bfm_i", bfm_i))
-       `uvm_fatal("NObfm_i",{"virtual interface must be set for: ",get_full_name(),".bfm_i"});
+    if(!uvm_config_db#(virtual bfm)::get(this, "", "bfm", bfm))
+       `uvm_fatal("NO_bfm",{"virtual interface must be set for: ",get_full_name(),".bfm"});
   endfunction: build_phase
  
   // run phase
