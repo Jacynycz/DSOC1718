@@ -1,11 +1,11 @@
-import imports::*;
+import core::*;
 
 class test1 extends uvm_test;
  
   `uvm_component_utils(test1)
  
   general_env env;
-  add_sequence seq;
+  general_sequence seq;
  
   function new(string name = "test1",uvm_component parent=null);
     super.new(name,parent);
@@ -14,7 +14,7 @@ class test1 extends uvm_test;
   virtual function void build_phase(uvm_phase phase);
     super.build_phase(phase);
     env = general_env::type_id::create("env", this);
-    seq = add_sequence::type_id::create("seq",this);
+    seq = general_sequence::type_id::create("seq",this);
   endfunction : build_phase
  
   task run_phase(uvm_phase phase);

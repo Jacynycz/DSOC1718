@@ -59,6 +59,7 @@ task automatic send(string str);
 	next_byte = str_to_byte(str);
 	send_byte(next_byte,size,1);
 	in_ready = 0;
+	
 	@(posedge out_ready);
 	$display("Listo");
 endtask

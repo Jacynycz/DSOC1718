@@ -1,4 +1,4 @@
-import imports::*;
+import core::*;
 
 class general_driver extends uvm_driver #(general_seq_item);
  
@@ -32,7 +32,7 @@ class general_driver extends uvm_driver #(general_seq_item);
  
   // drive
   virtual task drive();
-    bfm_i.send_command(req.elem1, req.elem1, req.op);
+    bfm_i.send(req.in);
   endtask : drive
  
 endclass : general_driver

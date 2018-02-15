@@ -1,4 +1,4 @@
-import imports::*;
+import core::*;
 class general_sequencer extends uvm_sequencer#(general_seq_item); 
    `uvm_sequencer_utils(general_sequencer)
       

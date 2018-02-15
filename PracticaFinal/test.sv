@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
+`include "sequencer/items/srandomizer/randomizer.sv";
 module test;
 
     bfm i_bfm();
@@ -30,11 +30,19 @@ module test;
         .out_ready(i_bfm.out_ready)
     );
 
+    randomizer#(3) sshort;
+    randomizer#(40) slarge;
 
     initial begin
+        sshort = new;
+        sshort.randomize();
+        slarge = new;
+        slarge.randomize();
         i_bfm.send("Viktor mola mucho porque lanza cosas al dut");
         i_bfm.send("Viktor mola mucho porque lanza cosas al dut y luego intenta desbordar el buffer de entrada para ver cuanto aguanta el sistema");
         i_bfm.send("Vik");
+        i_bfm.send(sshort.get_str());
+        i_bfm.send(slarge.get_str());
     end
 
 endmodule

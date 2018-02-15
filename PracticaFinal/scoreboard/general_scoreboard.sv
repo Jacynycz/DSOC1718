@@ -1,4 +1,4 @@
-import imports::*;
+import core::*;
 class general_scoreboard extends uvm_scoreboard;
  
   `uvm_component_utils(general_scoreboard)

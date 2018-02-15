@@ -10,283 +10,354 @@ cModel Technology
 Z0 dC:/Users/Viktor/Documents/Git/DSOC1718/PracticaFinal
 Ybfm
 Z1 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
-DXx4 work 4 defs 0 22 IXGjSPQXPZ1]YW_SL;@4>0
-Z2 !s110 1518550793
+Z2 DXx4 work 4 defs 0 22 aAb0ghi]kU]YO:gGlV:`E2
+Z3 !s110 1518697506
 !i10b 1
-!s100 7z:lzoI=AoiOP7di_me;T1
-Ia1V4^1Q?A3m;V7]Xi]a]=2
-Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s100 :]<8jXn72dK5=O;:F5a3D2
+ILARXThn<[lBVm::@KA9UJ0
+Z4 VDg1SIo80bB@j0V0VzS_@n1
 !s105 bfm_sv_unit
 S1
 R0
-w1518549065
+Z5 w1518688892
 8./bfm.sv
 F./bfm.sv
 L0 3
-Z4 OP;L;10.4a;61
+Z6 OP;L;10.4a;61
 r1
 !s85 0
 31
-Z5 !s108 1518550793.000000
-Z6 !s107 ./test.sv|./bfm.sv|./imports/defs.sv|./dut/rtl/round2in1.v|./dut/rtl/rconst2in1.v|./dut/rtl/padder1.v|./dut/rtl/padder.v|./dut/rtl/keccak.v|./dut/rtl/f_permutation.v|
-Z7 !s90 -reportprogress|300|-f|filelist.f|
+Z7 !s108 1518697506.000000
+Z8 !s107 tests/test1.sv|env/general_env.sv|scoreboard/general_scoreboard.sv|agent/general_agent.sv|monitor/general_monitor.sv|driver/general_driver.sv|sequencer/general_sequencer.sv|sequencer/sequences/general_sequence.sv|C:/Modeltech_pe_edu_10.4a/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|C:/Modeltech_pe_edu_10.4a/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|C:/Modeltech_pe_edu_10.4a/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|C:/Modeltech_pe_edu_10.4a/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|C:/Modeltech_pe_edu_10.4a/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|C:/Modeltech_pe_edu_10.4a/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|C:/Modeltech_pe_edu_10.4a/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|C:/Modeltech_pe_edu_10.4a/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|C:/Modeltech_pe_edu_10.4a/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|C:/Modeltech_pe_edu_10.4a/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|C:/Modeltech_pe_edu_10.4a/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|C:/Modeltech_pe_edu_10.4a/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|sequencer/items/general_seq_item.sv|sequencer/items/srandomizer/randomizer.sv|./top.sv|./imports/core.sv|./test.sv|./bfm.sv|./imports/defs.sv|./sequencer/items/srandomizer/randomizer.sv|./dut/rtl/round2in1.v|./dut/rtl/rconst2in1.v|./dut/rtl/padder1.v|./dut/rtl/padder.v|./dut/rtl/keccak.v|./dut/rtl/f_permutation.v|
+Z9 !s90 -reportprogress|300|-f|filelist.f|
 !s101 -O0
 !i113 1
-Z8 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
-Xdefs
+Z10 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+Xcore
 R1
+Z11 DXx6 mtiUvm 7 uvm_pkg 0 22 cC9?Ch=Dn8bB_YCM4bF[Y3
 R2
+!s110 1518697507
 !i10b 1
-!s100 S3RC]<2mj]MW4he42FdCF0
-IIXGjSPQXPZ1]YW_SL;@4>0
-VIXGjSPQXPZ1]YW_SL;@4>0
+!s100 38<PUQ]3aP5Bh:GH0Wgz@2
+IS8zQ2XC4MS<>V0LAA7BC>1
+VS8zQ2XC4MS<>V0LAA7BC>1
 S1
 R0
-w1518538917
+w1518690601
+8./imports/core.sv
+F./imports/core.sv
+Fsequencer/items/general_seq_item.sv
+Z12 FC:/Modeltech_pe_edu_10.4a/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh
+Z13 FC:/Modeltech_pe_edu_10.4a/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh
+Z14 FC:/Modeltech_pe_edu_10.4a/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh
+Z15 FC:/Modeltech_pe_edu_10.4a/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh
+Z16 FC:/Modeltech_pe_edu_10.4a/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh
+Z17 FC:/Modeltech_pe_edu_10.4a/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh
+Z18 FC:/Modeltech_pe_edu_10.4a/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh
+Z19 FC:/Modeltech_pe_edu_10.4a/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh
+Z20 FC:/Modeltech_pe_edu_10.4a/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh
+Z21 FC:/Modeltech_pe_edu_10.4a/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh
+Z22 FC:/Modeltech_pe_edu_10.4a/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh
+Z23 FC:/Modeltech_pe_edu_10.4a/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh
+Fsequencer/sequences/general_sequence.sv
+Fsequencer/general_sequencer.sv
+Fdriver/general_driver.sv
+Fmonitor/general_monitor.sv
+Fagent/general_agent.sv
+Fscoreboard/general_scoreboard.sv
+Fenv/general_env.sv
+Ftests/test1.sv
+L0 2
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+Xdefs
+R1
+R3
+!i10b 1
+!s100 Bz?I9HEgf4CiVYlCg72?]0
+IaAb0ghi]kU]YO:gGlV:`E2
+VaAb0ghi]kU]YO:gGlV:`E2
+S1
+R0
+R5
 8./imports/defs.sv
 F./imports/defs.sv
 L0 2
-R4
+R6
 r1
 !s85 0
 31
-R5
-R6
 R7
+R8
+R9
 !s101 -O0
 !i113 1
-R8
+R10
 vf_permutation
-R2
+R3
 !i10b 1
 !s100 =6gk^@UM_CG0dMn2W?oK`2
 IT1moWWQ0YBBBNe==3<n7l3
-R3
+R4
 R0
-Z9 w1518444009
+Z24 w1518444009
 8./dut/rtl/f_permutation.v
 F./dut/rtl/f_permutation.v
 L0 19
-R4
+R6
 r1
 !s85 0
 31
-R5
-R6
 R7
+R8
+R9
 !s101 -O0
 !i113 1
-R8
+R10
 vkeccak
-R2
+R3
 !i10b 1
 !s100 d:g41]P62Yni7`iaGn>:g0
 IjlVIzjmGQV3POealc5CHd2
-R3
+R4
 R0
-R9
+R24
 8./dut/rtl/keccak.v
 F./dut/rtl/keccak.v
 L0 26
-R4
+R6
 r1
 !s85 0
 31
-R5
-R6
 R7
+R8
+R9
 !s101 -O0
 !i113 1
-R8
+R10
 vpadder
-R2
+R3
 !i10b 1
 !s100 BjkaHhLog40ZL8@Yz^2<N2
 InogkAKIl3UV@<IWBjMbQW1
-R3
+R4
 R0
-R9
+R24
 8./dut/rtl/padder.v
 F./dut/rtl/padder.v
-Z10 L0 21
-R4
+L0 21
+R6
 r1
 !s85 0
 31
-R5
-R6
 R7
+R8
+R9
 !s101 -O0
 !i113 1
-R8
+R10
 vpadder1
-R2
+R3
 !i10b 1
 !s100 bDTE2_eXmRT7;PCh9^A332
 Ib3e[>XE=hM0A:AnNg9JZV3
-R3
+R4
 R0
-R9
+R24
 8./dut/rtl/padder1.v
 F./dut/rtl/padder1.v
-Z11 L0 17
-R4
+Z25 L0 17
+R6
 r1
 !s85 0
 31
-R5
-R6
 R7
-!s101 -O0
-!i113 1
 R8
-vrconst2in1
-R2
-!i10b 1
-!s100 h>k_NHQZ6O<iTcO;4;2Qb1
-ISZOE6f>0>>?;_O<^97Fj03
-R3
-R0
 R9
-8./dut/rtl/rconst2in1.v
-F./dut/rtl/rconst2in1.v
-L0 18
-R4
-r1
-!s85 0
-31
-R5
-R6
-R7
 !s101 -O0
 !i113 1
-R8
-vround2in1
-R2
-!i10b 1
-!s100 ?R1[ENkIFoJ`[C08QYVSY1
-IKD`@5l_SEUkO?X7cV6k3H3
-R3
-R0
-R9
-8./dut/rtl/round2in1.v
-F./dut/rtl/round2in1.v
-L0 25
-R4
-r1
-!s85 0
-31
-R5
-R6
-R7
-!s101 -O0
-!i113 1
-R8
-vtest
-R1
-R2
-!i10b 1
-!s100 ^VVDez?9kA^UFaJfWSkJD3
-IAldJ@OkIZe`=;4T]5KkP`2
-R3
-Z12 !s105 test_sv_unit
-S1
-R0
-w1518550785
-Z13 8./test.sv
-Z14 F./test.sv
-R11
-R4
-r1
-!s85 0
-31
-R5
-R6
-R7
-!s101 -O0
-!i113 1
-R8
-vtest_keccak
-R1
-!s110 1518535452
-!i10b 1
-!s100 Rk5RhEU[3H_IPJaQQYIUl2
-IZa=MJBj3U2UOVfzb?jb]n1
-R3
-R12
-S1
-R0
-w1518535014
-R13
-R14
 R10
-R4
-r1
-!s85 0
-31
-!s108 1518535452.000000
-R6
-R7
-!s101 -O0
-!i113 1
-R8
-Xtest_sv_unit
+Xrandomizer_sv_unit
 R1
-DXx6 mtiUvm 7 uvm_pkg 0 22 cC9?Ch=Dn8bB_YCM4bF[Y3
-Vn0>b^NGP8?0V6S]FY`8AW3
-r1
-!s85 0
-31
+R3
 !i10b 1
-!s100 z@`W9oCHh]@Q4R_81Mnz21
-In0>b^NGP8?0V6S]FY`8AW3
+!s100 [6Uh>M;L52^MH=UL<HUXB0
+IXjW`>g8]EiO8LG3mSY=kb1
+VXjW`>g8]EiO8LG3mSY=kb1
 !i103 1
 S1
 R0
-Z15 w1518532304
-R13
-R14
-FC:/Modeltech_pe_edu_10.4a/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh
-FC:/Modeltech_pe_edu_10.4a/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh
-FC:/Modeltech_pe_edu_10.4a/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh
-FC:/Modeltech_pe_edu_10.4a/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh
-FC:/Modeltech_pe_edu_10.4a/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh
-FC:/Modeltech_pe_edu_10.4a/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh
-FC:/Modeltech_pe_edu_10.4a/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh
-FC:/Modeltech_pe_edu_10.4a/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh
-FC:/Modeltech_pe_edu_10.4a/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh
-FC:/Modeltech_pe_edu_10.4a/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh
-FC:/Modeltech_pe_edu_10.4a/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh
-FC:/Modeltech_pe_edu_10.4a/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh
-L0 2
-R4
-!s108 1518533764.000000
-Z16 !s107 C:/Modeltech_pe_edu_10.4a/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|C:/Modeltech_pe_edu_10.4a/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|C:/Modeltech_pe_edu_10.4a/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|C:/Modeltech_pe_edu_10.4a/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|C:/Modeltech_pe_edu_10.4a/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|C:/Modeltech_pe_edu_10.4a/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|C:/Modeltech_pe_edu_10.4a/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|C:/Modeltech_pe_edu_10.4a/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|C:/Modeltech_pe_edu_10.4a/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|C:/Modeltech_pe_edu_10.4a/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|C:/Modeltech_pe_edu_10.4a/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|C:/Modeltech_pe_edu_10.4a/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|./test.sv|./bfm.sv|./imports/defs.sv|./dut/rtl/round2in1.v|./dut/rtl/rconst2in1.v|./dut/rtl/padder1.v|./dut/rtl/padder.v|./dut/rtl/keccak.v|./dut/rtl/f_permutation.v|
+w1518697466
+8./sequencer/items/srandomizer/randomizer.sv
+F./sequencer/items/srandomizer/randomizer.sv
+L0 1
+R6
+r1
+!s85 0
+31
 R7
+R8
+R9
 !s101 -O0
 !i113 1
-R8
-vtop
-R1
-!s110 1518534551
-!i10b 1
-!s100 @V8CzDe]MBg_]a_8^Cb[:0
-I:H3QMIaL2L?9jV@emU0lz3
+R10
+vrconst2in1
 R3
-R12
-S1
+!i10b 1
+!s100 h>k_NHQZ6O<iTcO;4;2Qb1
+ISZOE6f>0>>?;_O<^97Fj03
+R4
 R0
-R15
-R13
-R14
-L0 4
+R24
+8./dut/rtl/rconst2in1.v
+F./dut/rtl/rconst2in1.v
+L0 18
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+vround2in1
+R3
+!i10b 1
+!s100 ?R1[ENkIFoJ`[C08QYVSY1
+IKD`@5l_SEUkO?X7cV6k3H3
+R4
+R0
+R24
+8./dut/rtl/round2in1.v
+F./dut/rtl/round2in1.v
+L0 25
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+vtest
+R1
+DXx4 work 12 test_sv_unit 0 22 RB^G0PY2RMO[VeE_g?4KT3
 R4
 r1
 !s85 0
 31
-!s108 1518534550.000000
-R16
+!i10b 1
+!s100 Ama;:CXeOVCZW2?XUUVUI2
+Im_bGbaDA0a0chaU>=I@NT3
+!s105 test_sv_unit
+S1
+R0
+Z26 w1518697504
+Z27 8./test.sv
+Z28 F./test.sv
+R25
+R6
 R7
+R8
+R9
 !s101 -O0
 !i113 1
+R10
+Xtest_sv_unit
+R1
+VRB^G0PY2RMO[VeE_g?4KT3
+r1
+!s85 0
+31
+!i10b 1
+!s100 ED;GU];78b;;eL;9ZkiD30
+IRB^G0PY2RMO[VeE_g?4KT3
+!i103 1
+S1
+R0
+R26
+R27
+R28
+Fsequencer/items/srandomizer/randomizer.sv
+L0 1
+R6
+R7
 R8
+R9
+!s101 -O0
+!i113 1
+R10
+vtop
+R1
+R11
+DXx4 work 11 top_sv_unit 0 22 MBgo71]^TV1o__l<?7Yg;2
+R4
+r1
+!s85 0
+31
+!i10b 1
+!s100 B64]DHzALJCOBKCdSl3IA0
+I_Hhg9kULeDEcNB;7d@1?81
+!s105 top_sv_unit
+S1
+R0
+Z29 w1518532360
+Z30 8./top.sv
+Z31 F./top.sv
+L0 4
+R6
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+Xtop_sv_unit
+R1
+R11
+VMBgo71]^TV1o__l<?7Yg;2
+r1
+!s85 0
+31
+!i10b 1
+!s100 gNN2BbI^iQfSWARSB41lH1
+IMBgo71]^TV1o__l<?7Yg;2
+!i103 1
+S1
+R0
+R29
+R30
+R31
+R12
+R13
+R14
+R15
+R16
+R17
+R18
+R19
+R20
+R21
+R22
+R23
+L0 2
+R6
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10

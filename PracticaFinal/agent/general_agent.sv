@@ -1,4 +1,4 @@
-import imports::*;
+import core::*;
 class general_agent extends uvm_agent;
   //declaring agent components
   general_driver    driver;

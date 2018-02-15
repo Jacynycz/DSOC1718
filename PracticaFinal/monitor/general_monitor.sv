@@ -1,4 +1,4 @@
-import imports::*;
+import core::*;
 
 class general_monitor extends uvm_monitor;
  

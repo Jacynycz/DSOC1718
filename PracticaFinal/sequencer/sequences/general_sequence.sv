@@ -1,4 +1,4 @@
-import imports::*;
+import core::*;
 class general_sequence extends uvm_sequence#(general_seq_item);  
   `uvm_object_utils(general_sequence)
 

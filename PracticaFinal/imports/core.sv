@@ -4,17 +4,9 @@ package core;
 
 	// Sequence items
 	`include "sequencer/items/general_seq_item.sv"
-	`include "sequencer/items/add_seq_item.sv"
-	`include "sequencer/items/xor_seq_item.sv"
-	`include "sequencer/items/mul_seq_item.sv"
-	`include "sequencer/items/and_seq_item.sv"
 	
 	// Sequences
 	`include "sequencer/sequences/general_sequence.sv"
-	`include "sequencer/sequences/add_sequence.sv"
-	`include "sequencer/sequences/xor_sequence.sv"
-	`include "sequencer/sequences/mul_sequence.sv"
-	`include "sequencer/sequences/and_sequence.sv"
 
 	// Sequencer
 	`include "sequencer/general_sequencer.sv"
@@ -36,8 +28,5 @@ package core;
 
 	// Tests
 	`include "tests/test1.sv"
-	`include "tests/test2.sv"
-	`include "tests/test3.sv"
-	`include "tests/test4.sv"
 
 endpackage
