@@ -33,7 +33,7 @@ class general_driver extends uvm_driver #(general_seq_item);
  
   // drive
   virtual task drive();
-    bfm.send(req.in.get_str());
+    bfm.send(req.in);
   endtask : drive
  
 endclass : general_driver

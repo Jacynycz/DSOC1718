@@ -29,8 +29,8 @@ parameter CLOCK_PERIOD = 10;
 task automatic send(string str);
 	send_reset();
 	in_ready = 1;
-	$display("-------------------------------");
-	$display("Enviando cadena de texto:\n%s",str);
+	//$display("-------------------------------");
+	//$display("Enviando cadena de texto:\n%s",str);
 	while(str.len() > 8)
 	begin
 			//si el buffer del chip está lleno esperamos
@@ -75,10 +75,10 @@ task automatic send(string str);
 	in_ready = 0;
 	
 	@(posedge out_ready);
-	$display("-------------------------------");
-	$display("Recibido:\n%h",out);
-	$display("-------------------------------");
-	$display("*******************************");
+	//$display("-------------------------------");
+	//$display("Recibido:\n%h",out);
+	//$display("-------------------------------");
+	//$display("*******************************");
 endtask
 
 

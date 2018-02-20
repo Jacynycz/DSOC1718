@@ -11,4 +11,3 @@
 ./imports/core.sv
 ./tests/test1.sv
 ./top.sv
-./seq_item_tb.sv

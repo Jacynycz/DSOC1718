@@ -8,14 +8,12 @@ class general_sequence extends uvm_sequence#(general_seq_item);
   endfunction
    
   virtual task body();
- 
-    req = general_seq_item::type_id::create("req");  //create the req (seq item)
-    wait_for_grant();                            //wait for grant
-    assert(req.randomize());   
-    //finish_item();                  //randomize the req                   
-    send_request(req);                           //send req to driver
-    wait_for_item_done();                        //wait for item done from driver
-    get_response(rsp);                           //get response from driver
- 
-  endtask
+  `uvm_info ("BASE_SEQ", $sformatf ("Starting body of %s", this.get_name()), UVM_MEDIUM)
+  repeat(200)
+  begin
+    `uvm_do(req);
+  end
+  `uvm_info (get_type_name (), $sformatf ("Sequence %s is over", this.get_name()), UVM_MEDIUM)
+  
+endtask
 endclass
