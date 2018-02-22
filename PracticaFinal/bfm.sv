@@ -22,6 +22,7 @@ parameter CLOCK_PERIOD = 10;
     // Var
     integer i;
     packet_input next_byte;
+    string in_string;
     string next;
     string rem;
     int size;
@@ -29,6 +30,7 @@ parameter CLOCK_PERIOD = 10;
 task automatic send(string str);
 	send_reset();
 	in_ready = 1;
+	in_string = str;
 	//$display("-------------------------------");
 	//$display("Enviando cadena de texto:\n%s",str);
 	while(str.len() > 8)

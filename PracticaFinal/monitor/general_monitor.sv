@@ -1,21 +1,22 @@
 import core::*;
-
 class general_monitor extends uvm_monitor;
  
   // Virtual Interface
   virtual bfm bfm;
+  bit verbose = 1;
  
-  uvm_analysis_port #(general_seq_item) item_collected_port;
+  uvm_analysis_port #(data_item) item_collected_port;
+
  
   // Placeholder to capture transaction information.
-  general_seq_item trans_collected;
+  data_item collected;
  
   `uvm_component_utils(general_monitor)
  
   // new - constructor
   function new (string name, uvm_component parent);
     super.new(name, parent);
-    trans_collected = new();
+    collected = new("data_item",this);
     item_collected_port = new("item_collected_port", this);
   endfunction : new
  
@@ -25,9 +26,14 @@ class general_monitor extends uvm_monitor;
        `uvm_fatal("NO_bfm",{"virtual interface must be set for: ",get_full_name(),".bfm"});
   endfunction: build_phase
  
-  // run phase
+  // run phase 
   virtual task run_phase(uvm_phase phase);
-    item_collected_port.write(trans_collected);
+    forever begin
+       @(posedge bfm.out_ready);
+       collected.out =  bfm.out;
+       collected.in  =  bfm.in_string;
+       item_collected_port.write(collected);
+    end
   endtask : run_phase
- 
+  
 endclass : general_monitor

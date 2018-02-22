@@ -16,4 +16,4 @@ class general_sequence extends uvm_sequence#(general_seq_item);
   `uvm_info (get_type_name (), $sformatf ("Sequence %s is over", this.get_name()), UVM_MEDIUM)
   
 endtask
-endclass
+endclass 

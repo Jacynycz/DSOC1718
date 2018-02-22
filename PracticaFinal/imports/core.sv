@@ -11,6 +11,9 @@ package core;
 	// Sequencer
 	`include "sequencer/general_sequencer.sv"
 
+	// Helper classes
+	`include "helpers/data_item.sv"
+
 	// Driver
 	`include "driver/general_driver.sv"
 
@@ -23,7 +26,7 @@ package core;
 	// Scoreboards
 	`include "scoreboard/general_scoreboard.sv"
 
-	// Enviorment
+	// Envs
 	`include "env/general_env.sv"
 
 	// Tests

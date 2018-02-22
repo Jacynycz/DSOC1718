@@ -1,9 +1,11 @@
 import core::*;
+
 class general_scoreboard extends uvm_scoreboard;
  
   `uvm_component_utils(general_scoreboard)
-  uvm_analysis_imp#(general_seq_item, general_scoreboard) item_collected_export;
- 
+  uvm_analysis_imp#(data_item, general_scoreboard) item_collected_export;
+  bit verbose = 1;
+
   // new - constructor
   function new (string name, uvm_component parent);
     super.new(name, parent);
@@ -15,9 +17,12 @@ class general_scoreboard extends uvm_scoreboard;
   endfunction: build_phase
    
   // write
-  virtual function void write(general_seq_item pkt);
-    $display("SCB:: Pkt recived");
+  virtual function void write(data_item pkt);
+  if(verbose) begin
+    //$display("SCB:: Pkt recived");
     pkt.print();
+    $display("----------------------------------");
+  end
   endfunction : write
  
 endclass : general_scoreboard

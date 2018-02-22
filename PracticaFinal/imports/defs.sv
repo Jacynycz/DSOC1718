@@ -15,4 +15,8 @@ package defs;
 		end
 	endfunction : str_to_byte
 
+	function void print_out(packet_output out);
+		$display("Paquete de salida con valor: %h",out);
+	endfunction : print_out
+ 
 endpackage

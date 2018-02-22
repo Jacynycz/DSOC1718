@@ -9,7 +9,7 @@ class general_env extends uvm_env;
   `uvm_component_utils(general_env)
    
   //---------------------------------------
-  // constructor
+  // constructor 
   //---------------------------------------
   function new(string name, uvm_component parent);
     super.new(name, parent);
