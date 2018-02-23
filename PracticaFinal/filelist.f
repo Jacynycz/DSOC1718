@@ -9,5 +9,5 @@
 ./bfm.sv
 ./manual_test.sv
 ./imports/core.sv
-./tests/test1.sv
+./tests/testsmall.sv
 ./top.sv

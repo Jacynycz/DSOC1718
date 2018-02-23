@@ -8,8 +8,9 @@ module test_reader;
         string s1,s2;
         packet_output p;
         fd = $fopen("testsmall.txt","r");
-        status = $fscanf(fd,"%s;%s",s1,s2);
-        $display("%s,%h",s1,s2);
+        status = $fscanf(fd,"%s\n",s1);
+        status = $fscanf(fd,"%h\n",p);
+        $display("%s\n%h",s1,p);
     end
 
 endmodule

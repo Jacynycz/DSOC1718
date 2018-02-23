@@ -2,7 +2,7 @@ vlib work
 quit -sim
 
 vlog -f filelist.f
-vsim -coverage +UVM_TESTNAME=test1 work.top
+vsim -coverage +UVM_TESTNAME=testsmall work.top
 
 add wave -position insertpoint  \
 sim:/top/bfm/clk \

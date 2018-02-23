@@ -4,9 +4,11 @@ package core;
 
 	// Sequence items
 	`include "sequencer/items/general_seq_item.sv"
+	`include "sequencer/items/string_seq_item.sv"
 	
 	// Sequences
 	`include "sequencer/sequences/general_sequence.sv"
+	`include "sequencer/sequences/file_sequence.sv"
 
 	// Sequencer
 	`include "sequencer/general_sequencer.sv"
