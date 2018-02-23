@@ -2,6 +2,10 @@
 package core;
 	parameter version = "1.0";
 
+		// Helper classes
+	`include "helpers/data_item.sv"
+	`include "helpers/file_handler.sv"
+
 	// Sequence items
 	`include "sequencer/items/general_seq_item.sv"
 	`include "sequencer/items/string_seq_item.sv"
@@ -13,8 +17,6 @@ package core;
 	// Sequencer
 	`include "sequencer/general_sequencer.sv"
 
-	// Helper classes
-	`include "helpers/data_item.sv"
 
 	// Driver
 	`include "driver/general_driver.sv"
@@ -32,6 +34,6 @@ package core;
 	`include "env/general_env.sv"
 
 	// Tests
-	`include "tests/test1.sv"
+	`include "tests/test_small_strings.sv"
 
 endpackage

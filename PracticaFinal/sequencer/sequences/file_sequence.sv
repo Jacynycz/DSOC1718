@@ -1,6 +1,6 @@
 import core::*;
 class file_sequence extends uvm_sequence#(string_seq_item);  
-  `uvm_object_utils(general_sequence)
+  `uvm_object_utils(file_sequence)
 
   string filename;
   string string_to_hash;
@@ -8,9 +8,8 @@ class file_sequence extends uvm_sequence#(string_seq_item);
   integer fd; //file descriptor
 
   //Constructor
-  function new(string name = "general_sequence",string _filename);
+  function new(string name = "file_sequence");
     super.new(name);
-    filename = _filename;
   endfunction
    
   virtual task body();
