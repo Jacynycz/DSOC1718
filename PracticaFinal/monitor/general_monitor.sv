@@ -32,6 +32,7 @@ class general_monitor extends uvm_monitor;
        @(posedge bfm.out_ready);
        collected.out =  bfm.out;
        collected.in  =  bfm.in_string;
+       collected.expected_output = bfm.expected_output;
        item_collected_port.write(collected);
     end
   endtask : run_phase

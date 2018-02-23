@@ -7,20 +7,16 @@ class test_small_strings extends uvm_test;
   `uvm_component_utils(test_small_strings)
  
   general_env env;
-  file_sequence seq;
-  integer fd;
+  small_strings_sequence seq;
 
   function new(string name = "test_small_strings",uvm_component parent=null);
     super.new(name,parent);
-    fd = $fopen("./tests/dataset_small.txt","r");
-    $display("Abierto archivo %d",fd);
-    uvm_resource_db#(integer)::set("*", "fd", fd);
   endfunction : new
  
   virtual function void build_phase(uvm_phase phase);
     super.build_phase(phase);
     env = general_env::type_id::create("env", this);
-    seq = file_sequence::type_id::create("seq",this);
+    seq = small_strings_sequence::type_id::create("seq",this);
   endfunction : build_phase
  
   task run_phase(uvm_phase phase);

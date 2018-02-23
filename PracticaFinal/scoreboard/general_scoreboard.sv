@@ -18,11 +18,8 @@ class general_scoreboard extends uvm_scoreboard;
    
   // write
   virtual function void write(data_item pkt);
-  if(verbose) begin
-    //$display("SCB:: Pkt recived");
     pkt.print();
-    $display("----------------------------------");
-  end
+    pkt.check();
   endfunction : write
  
 endclass : general_scoreboard

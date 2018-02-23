@@ -8,6 +8,7 @@ class data_item extends uvm_component;
 
 	string in;
 	packet_output out;
+	packet_output expected_output;
 
 	//Constructor
 	function new(string name = "data_item",uvm_component 	parent);
@@ -15,7 +16,18 @@ class data_item extends uvm_component;
 	endfunction : new
 
 	function void print();
-		$display("   IN: %s\nOUT: %h",this.in,this.out);
+		`uvm_info("SCOREBOARD_INFO",
+			$sformatf("Recibido\n   IN: %s\nOUT: %h",this.in,this.out),
+				UVM_HIGH);
 	endfunction : print
+
+	function void check();
+		if (this.out != this.expected_output)
+		`uvm_error("SCOREBOARD_ERROR",
+			$sformatf("\nERROR EN EL STRING: %s\nSALIDA ESPERADA: %h\nSALIDA OBTENIDA: %h",
+			this.in,
+			this.out,
+			this.expected_output)); 
+	endfunction : check
 
 endclass

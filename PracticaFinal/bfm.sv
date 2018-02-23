@@ -22,15 +22,20 @@ parameter CLOCK_PERIOD = 10;
     // Var
     integer i;
     packet_input next_byte;
-    string in_string;
+    
     string next;
     string rem;
     int size;
 
-task automatic send(string str);
+    // Control vars
+    string in_string;
+    packet_output expected_output;
+
+task automatic send(string str, packet_output expected);
 	send_reset();
 	in_ready = 1;
 	in_string = str;
+	expected_output = expected;
 	//$display("-------------------------------");
 	//$display("Enviando cadena de texto:\n%s",str);
 	while(str.len() > 8)

@@ -5,7 +5,6 @@
 ./dut/rtl/round2in1.v
 ./dut/rtl/keccak.v
 ./sequencer/items/srandomizer/randomizer.sv
-./helpers/file_handler.sv
 ./imports/defs.sv
 ./bfm.sv
 ./manual_test.sv

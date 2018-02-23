@@ -8,6 +8,7 @@ class general_seq_item extends uvm_sequence_item;
 	`uvm_object_utils(general_seq_item)
 
 	string in;
+	packet_output expected;
 	
 	//Constructor
 	function new(string name = "general_seq_item");

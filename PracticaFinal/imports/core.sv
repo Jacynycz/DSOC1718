@@ -4,15 +4,13 @@ package core;
 
 		// Helper classes
 	`include "helpers/data_item.sv"
-	`include "helpers/file_handler.sv"
 
 	// Sequence items
 	`include "sequencer/items/general_seq_item.sv"
-	`include "sequencer/items/string_seq_item.sv"
 	
 	// Sequences
 	`include "sequencer/sequences/general_sequence.sv"
-	`include "sequencer/sequences/file_sequence.sv"
+	`include "sequencer/sequences/small_strings_sequence.sv"
 
 	// Sequencer
 	`include "sequencer/general_sequencer.sv"
