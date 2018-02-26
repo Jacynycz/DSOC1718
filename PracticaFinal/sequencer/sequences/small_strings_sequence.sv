@@ -25,8 +25,7 @@ class small_strings_sequence extends uvm_sequence#(general_seq_item);
       
       read_state = $fgets(aux_in,fd);
       aux_in =  aux_in.substr(0,aux_in.len()-2);
-      read_state = $fscanf(fd,"%h\n",aux_expected);
-
+      read_state = $fscanf(fd,"\n%h\n",aux_expected);
       wait_for_grant();                            //wait for grant
       req.in = aux_in;
       req.expected = aux_expected;                  

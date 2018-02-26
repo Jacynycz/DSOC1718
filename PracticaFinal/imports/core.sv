@@ -11,6 +11,8 @@ package core;
 	// Sequences
 	`include "sequencer/sequences/general_sequence.sv"
 	`include "sequencer/sequences/small_strings_sequence.sv"
+	`include "sequencer/sequences/medium_strings_sequence.sv"
+	`include "sequencer/sequences/large_strings_sequence.sv"
 
 	// Sequencer
 	`include "sequencer/general_sequencer.sv"
@@ -33,5 +35,7 @@ package core;
 
 	// Tests
 	`include "tests/test_small_strings.sv"
+	`include "tests/test_medium_strings.sv"
+	`include "tests/test_large_strings.sv"
 
 endpackage

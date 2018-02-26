@@ -10,4 +10,6 @@
 ./manual_test.sv
 ./imports/core.sv
 ./tests/test_small_strings.sv
+./tests/test_medium_strings.sv
+./tests/test_large_strings.sv
 ./top.sv
