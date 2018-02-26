@@ -1,3 +1,5 @@
+// coverage on
+
 `include "uvm_macros.svh"
 import uvm_pkg::*;
 import core::*;
