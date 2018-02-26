@@ -13,10 +13,10 @@ package core;
 	`include "sequencer/sequences/small_strings_sequence.sv"
 	`include "sequencer/sequences/medium_strings_sequence.sv"
 	`include "sequencer/sequences/large_strings_sequence.sv"
+	`include "sequencer/sequences/random_strings_sequence.sv"
 
 	// Sequencer
 	`include "sequencer/general_sequencer.sv"
-
 
 	// Driver
 	`include "driver/general_driver.sv"
@@ -29,6 +29,7 @@ package core;
 
 	// Scoreboards
 	`include "scoreboard/general_scoreboard.sv"
+	`include "scoreboard/general_coverage.sv"
 
 	// Envs
 	`include "env/general_env.sv"
@@ -37,5 +38,6 @@ package core;
 	`include "tests/test_small_strings.sv"
 	`include "tests/test_medium_strings.sv"
 	`include "tests/test_large_strings.sv"
+	`include "tests/test_random_strings.sv"
 
 endpackage

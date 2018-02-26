@@ -26,8 +26,8 @@ class data_item extends uvm_component;
 		`uvm_error("SCOREBOARD_ERROR",
 			$sformatf("\nERROR EN EL STRING: %s\nSALIDA ESPERADA: %h\nSALIDA OBTENIDA: %h",
 			this.in,
-			this.out,
-			this.expected_output)); 
+			this.expected_output,
+			this.out)); 
 	endfunction : check
 
 endclass

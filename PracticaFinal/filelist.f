@@ -7,7 +7,6 @@
 ./sequencer/items/srandomizer/randomizer.sv
 ./imports/defs.sv
 ./bfm.sv
-./manual_test.sv
 ./imports/core.sv
 ./tests/test_small_strings.sv
 ./tests/test_medium_strings.sv

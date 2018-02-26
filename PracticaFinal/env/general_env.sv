@@ -5,6 +5,7 @@ class general_env extends uvm_env;
   //---------------------------------------
   general_agent      agent_i;
   general_scoreboard scoreboard_i;
+  general_coverage coverage_i;
    
   `uvm_component_utils(general_env)
    
@@ -23,6 +24,7 @@ class general_env extends uvm_env;
  
     agent_i = general_agent::type_id::create("agent_i", this);
     scoreboard_i  = general_scoreboard::type_id::create("scoreboard_i", this);
+    coverage_i = general_coverage::type_id::create("coverage_i",this);
   endfunction : build_phase
    
   //---------------------------------------
@@ -30,6 +32,7 @@ class general_env extends uvm_env;
   //---------------------------------------
   function void connect_phase(uvm_phase phase);
     agent_i.monitor.item_collected_port.connect(scoreboard_i.item_collected_export);
+    agent_i.monitor.item_collected_port.connect(coverage_i.item_collected_export);
   endfunction : connect_phase
  
 endclass : general_env
